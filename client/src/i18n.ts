@@ -9,41 +9,46 @@ interface Language {
   fullCode: string;
 }
 
-export const languages: { [key: string]: Language } = {
-  ["en"]: {
+export const languages: { key: string: Language } = {
+  "en": {
     name: "English",
     countryCode: "gb",
     fullCode: "en-GB",
   },
-  ["sv"]: {
+  "sv": {
     name: "Svenska",
     countryCode: "se",
     fullCode: "sv-SE",
   },
-  ["de"]: {
+  "de": {
     name: "Deutsch",
     countryCode: "de",
     fullCode: "de-DE",
   },
-  ["es"]: {
+  "es": {
     name: "Español",
     countryCode: "es",
     fullCode: "es-ES",
   },
-  ["zh"]: {
+  "zh": {
     name: "简体中文",
     countryCode: "cn",
     fullCode: "zh-CN",
   },
-  ["pl"]: {
+  "pl": {
     name: "Polski",
     countryCode: "pl",
     fullCode: "pl-PL",
   },
-  ["ru"]: {
+  "ru": {
     name: "Русский",
     countryCode: "ru",
     fullCode: "ru-RU",
+  },
+  "fr": {
+    name: "Français",
+    countryCode: "fr",
+    fullCode: "fr-FR",
   },
 }
 
